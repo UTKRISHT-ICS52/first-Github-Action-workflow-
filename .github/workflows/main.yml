@@ -3,10 +3,10 @@ on:
   push:
        branches: [ main ] 
 
-  jobs:
+jobs: 
     demo: 
        runs-on: ubuntu-latest 
 
        steps:
        - name: Greetings 
-       run: echo "Hello From Apun" 
+         run: echo "Hello From Apun"
